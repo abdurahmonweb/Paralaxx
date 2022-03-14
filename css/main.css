@@ -1,0 +1,52 @@
+*{ 
+    box-sizing: border-box;
+}
+body{ 
+    margin: 0;
+    text-align: center;
+}
+
+h2{ 
+    font-size: 50px;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #123456;
+    font-family: 'Rubik', sans-serif;
+}
+
+.paralax-img {
+    width: 100%;
+    height: 100vh;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paralax_img__one {
+    background-image: url('../img/laptop-macbook-iphone.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+}
+
+.paralax_img__two {
+    background-image: url('../img/animal\ walpaper.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+}
+.paralax_img__three {
+    background-image: url('../img/music\ walpaper.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+}
+.paralax_img__four{ 
+    background-image: url('../img/tag\ walpaper.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+}
+.text_container {
+    padding: 20px 70px;
+}
